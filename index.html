@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Bingo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎯 Meu Bingo</h1>
+
+<div class="controles">
+    <button onclick="gerarCartela()">
+        Criar Cartela
+    </button>
+</div>
+
+<div id="cartela"></div>
+
+<div class="sorteio">
+
+    <h2>Sorteio</h2>
+
+    <input type="number" id="numeroSorteado" placeholder="Número sorteado">
+
+    <button onclick="marcarNumero()">
+        Marcar / Desmarcar
+    </button>
+
+</div>
+
+<h2 id="status">Marcados: 1/25</h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
